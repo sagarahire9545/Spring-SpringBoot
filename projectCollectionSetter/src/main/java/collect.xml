@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="q" class="com.Symbiosiscollectiosetter.Question">
+
+
+		<property name="id" value="101"></property>
+
+		<property name="qname" value="What is Java?"></property>
+	
+
+
+		<property name="answer">
+
+      <list>
+        <value>1.Java is oops.</value>
+        <value>2.Java is platform independent</value>
+        <value>2.Java is secure language</value>
+        
+      </list> 
+      </property> 
+
+	</bean>
+
+</beans>
