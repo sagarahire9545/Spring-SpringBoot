@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.spring.RevisionSpring.Student" name="stud" c:s_rno="13" 
+	>
+		<!-- <property name="s_rno" value="11"></property> -->
+		<!-- <property name="name" value="Sagar"></property> -->
+		<!-- <property name="college_name" value="Sinhgad"></property> -->
+
+		<!-- <constructor-arg value="12" type="int" /> <constructor-arg value="Amit" 
+			></constructor-arg > <constructor-arg value="Kashibai"></constructor-arg> -->
+
+
+	</bean>
+
+</beans>
