@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.springcore.collection.QuetsionAns" name="qns">
+
+		<property name="qId" value="101" />
+		<property name="question" value="what is hibernate?" />
+		<property name="answer">
+			<list>
+				<value>ORM tool.</value>
+				<value>Its use to interact with the database.</value>
+				<value>Invented by Gavin King</value>
+			</list>
+
+		</property>
+	</bean>
+
+</beans>
